@@ -1,0 +1,35 @@
+{
+  "name": "natural-writing",
+  "version": "1.0.0",
+  "description": "Rewrite and audit writing so it sounds natural, specific, and human while preserving the writer's voice.",
+  "author": {
+    "name": "Mickey Cavazos"
+  },
+  "repository": "https://github.com/mcavazostx/natural-writing-skill",
+  "license": "MIT",
+  "keywords": [
+    "writing",
+    "editing",
+    "real-estate",
+    "voice",
+    "AI writing"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Natural Writing",
+    "shortDescription": "Make writing sound natural and specific",
+    "longDescription": "Rewrite, draft, or audit writing so it sounds natural, direct, specific, and human while preserving the writer's voice. Includes real-estate-specific safeguards against invented facts and generic listing language.",
+    "developerName": "Mickey Cavazos",
+    "category": "Productivity",
+    "capabilities": [
+      "Edit",
+      "Draft",
+      "Audit",
+      "Preserve voice"
+    ],
+    "defaultPrompt": [
+      "Rewrite this naturally: (text)",
+      "Audit this for generic AI-style wording: (text)"
+    ]
+  }
+}
