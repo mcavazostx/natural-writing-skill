@@ -1,0 +1,4 @@
+{
+  "name": "Natural Writing Skill",
+  "install": "bash .cursor/install.sh"
+}
